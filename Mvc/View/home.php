@@ -8,7 +8,7 @@
     <div class="All-list">
         <div class="product-menu">
             <div class="soMi">
-                <a href=""><img src="Public/img/SoMi.jpg" alt=""></a>
+                <a href=""><img src="Public/img/1.jpg" alt=""></a>
                 <div class="type">
                    <a href=""><p>Áo Sơ Mi</p></a> 
                    <button class="view">Xem</button>
@@ -18,7 +18,7 @@
 
         <div class="product-menu">
             <div class="soMi">
-                <img src="Public/img/SoMi.jpg" alt="">
+                <img src="Public/img/40.jpg" alt="">
                 <div class="type">
                     <a href=""><p>Quần Tây</p></a> 
                     <button class="view">Xem</button>
@@ -28,7 +28,7 @@
 
         <div class="product-menu">
             <div class="soMi">
-                <img src="Public/img/SoMi.jpg" alt="">
+                <img src="Public/img/10.jpg" alt="">
                 <div class="type">
                     <a href=""><p>Áo Polo</p></a> 
                     <button class="view">Xem</button>
@@ -38,7 +38,7 @@
 
         <div class="product-menu">
             <div class="soMi">
-                <img src="Public/img/SoMi.jpg" alt="">
+                <img src="Public/img/17.jpg" alt="">
                 <div class="type">
                     <a href=""><p>Áo Khoác</p></a> 
                     <button class="view">Xem</button>
@@ -48,7 +48,7 @@
 
         <div class="product-menu">
             <div class="soMi">
-                <img src="Public/img/SoMi.jpg" alt="">
+                <img src="Public/img/29.jpg" alt="">
                 <div class="type">
                     <a href=""><p>Quần Jean</p></a> 
                     <button class="view">Xem</button>
@@ -66,7 +66,7 @@
         <div class="hot-Event">
             <div class="product-event">
                 <div class="img-product-event">
-                    <a href=""><img src="Public/img/jean.jpg" alt=""></a>
+                    <a href=""><img src="Public/img/21.jpg" alt=""></a>
                     <a class="mn" href="">
                         <p>Mua Ngay</p>
                     </a>
@@ -81,23 +81,7 @@
 
             <div class="product-event">
                 <div class="img-product-event">
-                    <img src="Public/img/jean.jpg" alt="">
-                    <a class="mn" href="">
-                        <p>Mua Ngay</p>
-                    </a>
-                </div>
-                <div class="name-prodct-event">
-                    <a href="">City Breeze</a>
-                </div>
-                <div class="price-product-event">
-                    <p class="price-dwn">4.200.000₫</p> <p class="price">4.200.000₫</p>
-                </div>
-            </div>
-
-
-            <div class="product-event">
-                <div class="img-product-event">
-                    <img src="Public/img/jean.jpg" alt="">
+                    <img src="Public/img/7.jpg" alt="">
                     <a class="mn" href="">
                         <p>Mua Ngay</p>
                     </a>
@@ -113,7 +97,23 @@
 
             <div class="product-event">
                 <div class="img-product-event">
-                    <img src="Public/img/jean.jpg" alt="">
+                    <img src="Public/img/28.jpg" alt="">
+                    <a class="mn" href="">
+                        <p>Mua Ngay</p>
+                    </a>
+                </div>
+                <div class="name-prodct-event">
+                    <a href="">City Breeze</a>
+                </div>
+                <div class="price-product-event">
+                    <p class="price-dwn">4.200.000₫</p> <p class="price">4.200.000₫</p>
+                </div>
+            </div>
+
+
+            <div class="product-event">
+                <div class="img-product-event">
+                    <img src="Public/img/41.jpg" alt="">
                     <a class="mn" href="">
                         <p>Mua Ngay</p>
                     </a>
@@ -146,7 +146,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <a href=""><img src="Public/img/jean.jpg" alt=""></a>
+                        <a href=""><img src="Public/img/10.jpg" alt=""></a>
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
@@ -163,7 +163,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <img src="Public/img/JeanNoSly.jpg" alt="">
+                        <img src="Public/img/3.jpg" alt="">
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
@@ -180,7 +180,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <img src="Public/img/jean.jpg" alt="">
+                        <img src="Public/img/4.jpg" alt="">
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
@@ -197,7 +197,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <img src="Public/img/jean.jpg" alt="">
+                        <img src="Public/img/5.jpg" alt="">
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
@@ -214,7 +214,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <img src="Public/img/jean.jpg" alt="">
+                        <img src="Public/img/11.jpg" alt="">
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
@@ -231,7 +231,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <img src="Public/img/jean.jpg" alt="">
+                        <img src="Public/img/12.jpg" alt="">
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
@@ -248,7 +248,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <img src="Public/img/jean.jpg" alt="">
+                        <img src="Public/img/13.jpg" alt="">
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
@@ -265,7 +265,7 @@
             <div class="type-product">
                 <div class="product">
                     <div class="img-product">
-                        <img src="Public/img/jean.jpg" alt="">
+                        <img src="Public/img/15.jpg" alt="">
                         <a class="mn" href="">
                             <p>Mua Ngay</p>
                         </a>
