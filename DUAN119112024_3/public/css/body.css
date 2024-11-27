@@ -1,0 +1,236 @@
+.promotion {
+  max-height: 366px; /* Đặt chiều cao tối đa */
+  object-fit: cover; /* Giữ nguyên tỷ lệ ảnh mà không bị biến dạng */
+  margin: 0 130px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between; /* Đảm bảo các item nằm cách đều */
+  gap: 10px; /* Khoảng cách giữa các items */
+}
+
+.promo-item {
+  position: relative;
+  width: 48%; /* Mỗi item chiếm 48% chiều rộng */
+}
+
+.promo-item img {
+  width: 100%; /* Ảnh chiếm 100% chiều rộng của phần tử */
+  height: 100%;
+  object-fit: cover; /* Cắt ảnh cho vừa khung */
+}
+
+.promo-text {
+  position: absolute;
+  bottom: 20px; /* Đưa text xuống dưới */
+  left: 20px;
+  color: white;
+}
+
+.promo-text p {
+  font-size: 1.5em;
+  color: red;
+  background-color: transparent;
+}
+
+.promo-text h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.promo-text a {
+  background-color: red;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*  */
+
+
+
+/* Phần đếm ngược */
+.countdown {
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.countdown p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f39c12;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2  0px;
+  flex-wrap: wrap;
+  margin-left: 300px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f39c12;
+}
+
+.count-down {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 100px;
+}
+
+.count-down-cell {
+  background-color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  min-width: 50px;
+  text-align: center;
+  color: #f39c12;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.two-dots {
+  font-size: 24px;
+  color: #f39c12;
+  margin: 0 5px;
+}
+
+.count-down-cell span {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .count-down-cell {
+    font-size: 20px;
+    padding: 8px 12px;
+    min-width: 40px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .countdown p {
+    font-size: 16px;
+  }
+
+  .count-down {
+    padding: 0 20px;
+  }
+}
+/*  */
+/* phần lấy sản phẩm */
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các sản phẩm xuống dòng khi không đủ chỗ */
+  justify-content: space-between; /* Căn đều các sản phẩm */
+  gap: 20px; /* Khoảng cách giữa các sản phẩm */
+  padding: 0 130px; /* Đặt khoảng cách 130px ở hai bên trái phải */
+  box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước của container */
+}
+
+.product-box {
+  width: calc(25% - 20px); /* Mỗi sản phẩm chiếm 1/4 chiều rộng của container, trừ đi khoảng cách giữa các sản phẩm */
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  background-color: #000; /* Nền đen cho các box sản phẩm */
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center; /* Căn giữa các nội dung */
+}
+
+.product-box img {
+  width: 100%;
+  height: auto; /* Cố định chiều cao ảnh */
+  object-fit: cover; /* Giữ tỷ lệ ảnh mà không bị méo */
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 16px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #FAB302; /* Màu vàng cho giá sản phẩm */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: #FAB302;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight:200;
+  border-radius: 5px;
+  /* color:#000 */
+}
+
+a button:hover{
+  background-color: #000;
+  border: 1px solid #FAB302;
+  color:#FAB302;
+  transition: all 0.5s ease;
+}
+
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+  .product-box {
+    width: calc(50% - 20px); /* 2 sản phẩm 1 hàng trên màn hình nhỏ */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-box {
+    width: 100%; /* 1 sản phẩm 1 hàng trên màn hình rất nhỏ */
+  }
+}
+
+/* phần tin túc
+ */
+ .tintuc {
+  margin: 50px 130px;
+}
+
+.tintuc .tin1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tintuc .tin2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.tin2 img {
+  object-fit: cover;
+  display: flex;
+  gap: 20px;
+}

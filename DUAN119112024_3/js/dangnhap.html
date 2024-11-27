@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../CSS/dangnhap.css">
+    <link rel="stylesheet" href="../CSS/header1.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <script src="https://kit.fontawesome.com/1c5c4be935.js" crossorigin="anonymous"></script>
+    <!-- ======================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/../CSS/all.min.css">
+
+<style>
+    .title-in{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+.Dangnhap {
+    /* font-family: Arial, sans-serif; */
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+#registrationForm {
+    background: #000;
+    color: #fff;
+    /* padding: 20px; */
+    border-radius: 8px;
+    width: 500px;
+}
+#registrationForm label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+#registrationForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    border-radius: 5px;
+    color:#fff;
+}
+
+#registrationForm input[type="email"]
+{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 100%;
+    max-width: 500px;
+    color:#fff;
+}
+#registrationForm input[type="password"]
+{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 100%;
+    max-width: 500px;
+    color:#fff;
+
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+#registrationForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FAB302;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid #FAB302;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng hover mượt */
+}
+#registrationForm button:hover {
+    background-color: #000;
+    color: #FAB302;
+}
+
+/* ================== */
+
+.email-phone-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.email-phone-container div {
+    flex: 1;
+   
+}
+.email-phone-container div input {
+background-color: #000;
+color: #fff;
+border: 1px solid #fff;
+}
+/*   =========================   */
+
+.password-container {
+    position: relative;
+   
+}
+.password-container .eye-icon {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    /* transform: translateY(-30%); */
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+.password-container .eye-icon:hover {
+    color: #FAB302; /* Màu khi hover */
+    
+}
+.password-container input {
+    width: 100%;
+    height: 35px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: inherit;
+    color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+    <!--         MỞ ĐẦU HEADER         -->
+
+    <!--   ---------------------------------   -->
+
+    <div class="san1">
+        <p >MIỄN PHÍ VẬN CHUYỂN TOÀN QUỐC</p>
+    </div>
+    <section>
+        <div class="nav">
+            <div class="nav-left">
+                <ul>
+                   
+                    <a href="index.html"> <li style=" font-size: larger;">STORE</li></a>
+                </ul>
+            </div>
+            <div class="nav-giua ">
+                <img src="../img/logo chuẩn.png">
+            </div>
+            <!--  -->
+            <div class="nav-right">
+                <div style="color: #fff; list-style-type: none; margin-top: -36px; display: flex; height: 100px; width: 100px;">
+                    <!-- Icon search -->
+                    <li class="icon" style="margin-left: 10px; margin-top: 56px;">
+                        <i style="font-size: 20px;" class="fa-solid fa-search">
+                            <form action="" id="search-box">
+                                <input type="text" id="searchInput" placeholder="Tìm kiếm...">
+                            </form>
+                        </i>
+                    </li>                                       
+                    <!-- Icon user -->
+
+                    <li class="icon" style="margin-left: 10px; margin-top: 56px;">
+                        <i style="font-size: 20px; ; margin-left: 10px;" class="fa-solid fa-user">
+                             <!-- Menu con -->
+                            <ul class="user-menu">
+                                <li><a href="dangnhap.html">Đăng nhập</a></li>
+                                <li><a href="dangki.html">Đăng ký</a></li>
+                                <li><a href="taikhoan.html">Tài khoản</a></li>
+                            </ul>
+                        </i>
+                    </li>
+                    
+                    <!-- Icon giỏ hàng -->
+                    <a href="">
+                    <li class="icon" style="margin-left: 10px; margin-top: 56px;">
+                        <i style="font-size: 20px; margin-left: 10px;" class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                    </a>
+                </div>
+            </div>
+
+
+            <style>
+                /* Đặt màu trắng và kích thước cơ bản cho các biểu tượng */
+                .icon i {
+                    color: #fff;
+                    transition: color 0.3s ease, transform 0.3s ease;
+                }
+
+                /* Hiệu ứng hover: thay đổi màu và phóng to */
+                .icon:hover i {
+                    color: #FAB302;
+                    /* Đổi màu vàng khi hover */
+                    transform: scale(1.2);
+                    /* Phóng to nhẹ */
+                }
+            </style>
+
+        </div>
+        <hr>
+        <div class="menu">
+            <ul>
+                <li><a href="#">PRODUTCS</a>
+                    <ul class="submenu">
+                        <li><a href="#">Tops</a></li>
+                        <li><a href="#">Bottoms</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Womenswear</a></li>
+                    
+                    </ul>
+                </li>
+                <!-- <li> <a href="#">COLLAB</a></li> -->
+                <li> <a href="#">ABOUT US</a></li>
+                <li> <a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+<hr>
+    </section>
+
+
+
+    <!--        MỞ ĐẦU BODY         -->
+
+    <!--   ---------------------------------   -->
+    <h1 class="title-in">Đăng nhập</h1>
+    <div class="Dangnhap">
+        <form id="registrationForm">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Nhập email">
+            <div class="error" id="emailError"></div>
+
+            <div class="password-container">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" placeholder="Nhập mật khẩu">
+                <span id="passwordError" class="bug-message"></span>
+                <i class="eye-icon" id="eye-icon-password" onclick="togglePassword()">&#128065;</i>
+            </div>
+
+
+            <button type="submit">ĐĂNG NHẬP</button>
+        </form>
+    </div>
+
+
+
+
+    <!--          KẾT THÚC PHẦN BODY         -->
+
+    <!--   ---------------------------------   -->
+
+
+    <!--          MỞ ĐẦU PHẦN FOOTER        -->
+
+    <!--   ---------------------------------   -->
+
+    <div class="footer">
+        <div class="footer1">
+            <h4 style="color:red; "> Giảm giá 500k cho đơn hàng đầu tiên</h4>
+            <h1 style=" color: white;">Đăng ký email ngay</h1>
+            <p>Phiếu giảm giá sẽ được gửi vào email của bạn trị giá<br>
+                500,000₫ khi đơn hàng đầu tên trên 5,000,000₫</p>
+
+            <form action="save_email.php" method="POST">
+                <input type="email" id="email" name="email" required placeholder="example@gmail.com"
+                    style="padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid 000; width: 100%; max-width: 300px;">
+                <button type="submit"
+                    style="padding: 10px 20px; background-color:#FAB302; color: white; border: none; border-radius: 5px; font-size: 15px;">
+                    Đăng ký
+                </button>
+            </form>
+            <br>
+            <img src="../img/visa thanh tian.jpg" alt="">
+
+        </div>
+        <hr>
+        <div class="footer3">
+            <div class="contact">
+                <span>Bạn cần hỗ trợ</span>
+                <div class="phone">
+                    <i class="fas fa-phone-alt"></i> <!-- Font Awesome icon for the phone -->
+                    <span>(+84) 0355179373</span>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="../img/logo chuẩn.png" alt="TAFS Fashion Style"> <!-- Replace with your logo image -->
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div class="column">
+                <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+                <br>
+                <p>TAFS là brand phụ kiện thành lập bởi những người có niềm đam mê với
+                    trang sức, yêu thích các chế tác được tạo ra từ đôi bàn tay thuần Việt,
+                    mong muốn đưa các tác phẩm vươn tầm thế giới.</p>
+                <br>
+                <h4>Hotline hỗ trợ:</h4>
+                <li>- Hà Nội: 039.327.8668</li>
+                <li>- Hồ Chí Minh: 0794.302.899</li>
+                <li>Phản Ánh Chất Lượng Dịch Vụ : 0981.956.116</li>
+                <li>Email: support@vansang</li>
+            </div>
+
+            <div class="column">
+                <h3>CHĂM SÓC KHÁCH HÀNG</h3>
+                <br>
+                <li>Hướng dẫn thanh toán</li>
+                <li>Giao Hàng</li>
+                <li>Chính sách bảo hành</li>
+                <li>Chính sách đổi trả</li>
+                <li>Chính sách bảo mật</li>
+                <li>Bảng giá phí điều chỉnh sản phẩm</li>
+            </div>
+
+            <div class="column">
+                <h3>VỀ CHÚNG TÔI</h3>
+                <br>
+                <li> TAFS</li>
+                <li> Hệ thống</li>
+                <li> Tuyển dụng</li>
+                <li>Menbership by TAFs</li>
+            </div>
+            <div class="column">
+                <h3>DÀNH CHO KHÁCH HÀNG</h3>
+                <br>
+                <li> Kiện thức thời trang</li>
+                <li> Hướng dẫn bảo quản</li>
+                <li> Hướng dẫn đo size</li>
+            </div>
+        </div>
+    </div>
+
+
+    <!--          KẾT THÚC PHẦN FOOTER       -->
+
+
+    <script src="../JS/dangnhap.js"></script>
+</body>
+
+</html>

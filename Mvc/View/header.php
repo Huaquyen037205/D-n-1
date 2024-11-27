@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="Public/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
+    <script src="https://kit.fontawesome.com/5a06f65a96.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
@@ -25,7 +30,7 @@
                     <div class="sub-menu-wrap">
                         <div class="sub-menu">
                             <div class="logo">
-                                <img src="/Mvc/Public/img/logo (2).png" alt="">
+                                <img src="Public/img/logo (2).png" alt="">
                             </div>
                             <div class="login-logout">
                                 <a href="">Đăng nhập</a> |
@@ -67,7 +72,7 @@
             </div>
 
             <div class="logo">
-                <a href=""><img src="/Mvc/Public/img/logo (2).png" alt=""></a>
+                <a href=""><img src="Public/img/logo (2).png" alt=""></a>
             </div>
 
             <div class="icon">

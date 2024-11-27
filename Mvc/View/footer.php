@@ -3,7 +3,7 @@
         <div class="footer">
             <div class="full-footer">
                 <div class="logo">
-                    <img src="/Mvc/Public/img/logo (2).png" alt="">
+                    <img src="Public/img/logo (2).png" alt="">
                     <div>
                         <div>
                             <i class="fa-solid fa-location-dot"></i>

@@ -1,0 +1,286 @@
+
+
+.left-section {
+    width: 40%; /* Tăng chiều rộng để phần này chiếm không gian lớn hơn */
+    padding: 30px; /* Thêm nhiều khoảng cách bên trong để tạo không gian rộng rãi */
+  }
+  
+  .left-section h2 {
+    font-size: 24px; /* Tăng kích thước phông chữ của tiêu đề */
+    margin-bottom: 20px; /* Thêm khoảng cách dưới tiêu đề */
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 15px; /* Tăng padding bên trong các ô nhập để chúng lớn hơn */
+    margin: 15px 0; /* Tăng khoảng cách giữa các trường */
+    font-size: 16px; /* Tăng kích thước phông chữ trong các ô nhập */
+    border-radius: 5px; /* Bo góc các ô nhập trông mềm mại hơn */
+    border: 1px solid #fff; /* White border for contrast */
+    background-color: #000000; /* Dark background for input fields */
+    color: #f4f4f4;
+
+  }
+  form select {
+    padding: 12px; /* Tăng padding bên trong các ô chọn */
+  }
+  
+  .checkout-container {
+    display: flex;
+    width: 100%;
+    max-width: calc(100% - 180px); /* 180px (90px bên trái + 90px bên phải) */
+    height: 100vh;
+    padding: 20px; /* Thay đổi padding để có không gian phù hợp */
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 90px; /* Khoảng cách 90px ở cả hai bên */
+  }
+  
+  .left-section,
+  .middle-section,
+  .right-section {
+    padding: 20px;
+    width: 33.33%; /* Đảm bảo mỗi phần chiếm không gian đều nhau */
+  }
+  
+  /* CSS cho khung chọn phương thức vận chuyển */
+  .shipping-method-container {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .shipping-method-container h2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .shipping-payment-container {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .middle-section {
+    width: 33.33%; /* Đảm bảo phần vận chuyển có chiều rộng bằng phần thông tin khách hàng */
+  }
+  
+
+  
+  /* CSS cho khung chọn phương thức vận chuyển */
+  .shipping-method-container {
+    background-color: #000000; /* Màu nền của khung */
+    border: 1px solid #ffffff; /* Viền trắng quanh khung */
+    border-radius: 10px; /* Bo góc cho khung */
+    padding: 20px 15px; /* Khoảng cách bên trong khung */
+    /* margin: 10px 0; Khoảng cách giữa các phần */
+    height: 60px;
+  }
+  
+  .shipping-method-container > span {
+    color: #ddd;
+    font-size: 16px;
+    /* padding: 10px; */
+    
+  }
+  
+
+  /* Ensure the section background matches page background, and set white border */
+  .shipping-payment-container,
+  .order-container {
+    background-color: #000000; /* Matches body background */
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  
+  
+  .payment-options label {
+    display: block;
+    margin: 10px 0;
+    color: #f4f4f4;
+    background-color: #000000; /* Màu nền của khung */
+    border: 1px solid #ffffff; /* Viền trắng quanh khung */
+    border-radius: 10px; /* Bo góc cho khung */
+    padding: 0px; /* Khoảng cách bên trong khung */
+    margin: 10px 0; /* Khoảng cách giữa các phần */
+    height: 60px;
+  }
+  
+  .payment-options input {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .product {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 14px;
+  }
+  
+  .discount-wrapper input{
+    border-radius: 7px;
+    padding-left: 5px;
+    background-color: #000;
+    border: 1px solid #fff;
+  }
+  .discount-wrapper .Apdung{
+    border-radius: 7px;
+    background-color: #fab304;
+  }
+  .discount-wrapper .Apdung:hover{
+    background-color: #000;
+    color:#fab304;
+    border: 1px solid #fab304;
+  }
+  .summary,
+  .total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    color: #ffffff;
+  }
+  
+  .total {
+    font-weight: bold;
+    color: #e62323;
+  }
+  
+  
+  .order-button {
+    background-color: #fab304;
+    /* font-weight:inherit; */
+  }
+  
+  .order-button:hover {
+    background-color: #000;
+    color:#fab304;
+    border: 1px solid #fab304;
+  }
+  
+  /* a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  } */
+  /* CSS for the coupon input and apply button in the same row */
+  .order-container input[type="text"] {
+    width: 68.75%; 
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px; /* Add margin for spacing */
+  }
+  
+  .order-container button {
+    width: 28.75%; /* 1.25 parts of 4 */
+    display: inline-block;
+    margin-top: 10px; /* Match input's top margin */
+  }
+  /* CSS cho ô nhập mã giảm giá và nút áp dụng trên cùng một hàng */
+  .order-container input[type="text"] {
+    width: 60%; /* Giảm độ rộng để ô nhập ngắn hơn */
+    height: 45px; /* Tăng chiều cao để bằng với nút */
+    display: inline-block;
+    margin-right: 5px; /* Khoảng cách nhỏ giữa ô nhập và nút */
+    margin-top: 10px; /* Khoảng cách trên để đồng nhất */
+    font-size: 16px; /* Điều chỉnh font để phù hợp */
+  }
+  input[type="tel"] {
+    height: 45px; /* Tăng chiều cao để bằng với nút */
+    display: inline-block;
+    margin-right: 5px; /* Khoảng cách nhỏ giữa ô nhập và nút */
+    margin-top: 10px; /* Khoảng cách trên để đồng nhất */
+    font-size: 16px; /* Điều chỉnh font để phù hợp */
+   
+  }
+  
+form >input[type="email"] {
+    width: 100%;
+    height: 45px; /* Tăng chiều cao để bằng với nút */
+    display: inline-block;
+    margin-right: 5px; /* Khoảng cách nhỏ giữa ô nhập và nút */
+    margin-top: 10px; /* Khoảng cách trên để đồng nhất */
+    font-size: 16px; /* Điều chỉnh font để phù hợp */
+  }
+  
+  .order-container button {
+    width: 35%; /* Tăng độ rộng để nút lớn hơn */
+    height: 45px; /* Chiều cao nút bằng với ô nhập */
+    /* display: inline-block; */
+    margin-top: 10px; /* Khoảng cách trên để đồng nhất với ô nhập */
+    font-size: 16px; /* Điều chỉnh font cho phù hợp */
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    width: auto; /* Tự động theo kích thước chữ */
+    padding: 10px;
+    background-color: #000000; /* Màu xám cho nút quay lại */
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: auto; /* Đẩy nút quay lại sang trái */
+  }
+  
+  .back-button:hover {
+    background-color: #000000; /* Màu hover cho nút quay lại */
+  }
+  
+  .order-button {
+    width: 48%; /* Để nút đặt hàng chiếm một phần nhỏ */
+    background-color: #fab304;
+    /* font-weight: bold; */
+    padding: 10px;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .product {
+    display: flex;
+    align-items: center;
+    margin: 30px 0; /* Tăng khoảng cách giữa các sản phẩm */
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  .product p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  

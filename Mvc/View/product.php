@@ -80,7 +80,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/4.jpg" alt="">
+                            <img src="Public/img/4.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
                     </div>                   
@@ -97,7 +97,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/5.jpg" alt="">
+                            <img src="Public/img/5.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
                     </div>                   
@@ -114,7 +114,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/6.jpg" alt="">
+                            <img src="Public/img/6.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
                     </div>                   
@@ -131,7 +131,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/7.jpg" alt="">
+                            <img src="Public/img/7.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
 </div>
@@ -148,7 +148,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/8.jpg" alt="">
+                            <img src="Public/img/8.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
                     </div>                   
@@ -165,7 +165,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/9.jpg" alt="">
+                            <img src="Public/img/9.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
                     </div>                   
@@ -182,7 +182,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/10.jpg" alt="">
+                            <img src="Public/img/10.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
                     </div>                   
@@ -199,12 +199,12 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/11.jpg" alt="">
+                            <img src="Public/img/11.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
-</div>                   
+                </div>                   
                     <div class="product-info">
-<a href="" class="product-name">City Classic</a>
+                        <a href="" class="product-name">City Classic</a>
                         <div class="gia" >
                             <div class="price">400.000đ</div>
                             <div class="priceg">1.400.000đ</div>
@@ -216,7 +216,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="img/12.jpg" alt="">
+                            <img src="Public/img/12.jpg" alt="">
                         </a>
                         <a href="" class="mn">Mua ngay</a>
                     </div>                   

@@ -1,0 +1,145 @@
+
+.footer{
+    background-color: black;
+  
+}
+/* Đặt nền và căn lề cho footer */
+.footer1 {
+    position: relative;
+    background-image:url('../img/nen footer.png');/*Đặt ảnh nền */
+    background-size: 100% 100%;
+    padding: 20px;
+    margin: 0 90px; /* Căn đều 2 bên với khoảng cách 116px */
+    font-family: sans-serif;
+    color: #000;
+    
+    
+}
+
+/* Kiểu chữ */
+.footer1 h4 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.footer1>p {
+    margin-bottom: 20px;
+    color: #ddd;
+    font-weight:600;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    /* background-color: black; */
+    color: white;
+    font-family: sans-serif ;
+}
+
+/* Cột */
+.column {
+    flex: 1;
+    padding: 20px;
+    
+    /* background-color: #f0f0f0; */
+    margin: 0 11px; /* Khoảng cách giữa các cột */
+}
+.column >li{
+    list-style-type: none;
+    line-height: 35px;
+    
+}
+.column >li:hover{
+    color: #FAB320;
+}
+/* Form email */
+
+#userLogin > input[type="email"] {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+}
+
+
+/* styles.css */
+
+
+
+.footer3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+   
+}
+
+.contact>span {
+    font-size: 16px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.phone>i {
+    margin-right: 8px;
+}
+
+.logo img {
+    height: 150px; /* Adjust the logo size as needed */
+}
+
+.social-icons>a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons>a:hover {
+    color: #f0c040; /* Change color on hover */
+}
+/* CSS cho container social-icons */
+.social-icons {
+    display: flex; /* Hiển thị các biểu tượng theo hàng ngang */
+    justify-content: center; /* Căn giữa các biểu tượng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 15px; /* Khoảng cách giữa các biểu tượng */
+    margin-top: 20px; /* Khoảng cách phía trên */
+}
+
+/* CSS cho từng liên kết */
+.social-icons a {
+    display: inline-block; /* Đảm bảo mỗi biểu tượng là một khối riêng */
+    width: 40px; /* Kích thước biểu tượng */
+    height: 40px; /* Kích thước biểu tượng */
+    line-height: 40px; /* Căn chỉnh biểu tượng theo chiều dọc */
+    text-align: center; /* Căn giữa biểu tượng */
+    background-color: #f0f0f0; /* Màu nền của biểu tượng */
+    border-radius: 50%; /* Bo tròn biểu tượng */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi khi hover */
+}
+
+/* CSS cho biểu tượng (font-awesome icons) */
+.social-icons a i {
+    font-size: 20px; /* Kích thước biểu tượng */
+    color: #333; /* Màu của biểu tượng */
+    transition: color 0.3s ease; /* Hiệu ứng chuyển đổi màu khi hover */
+}
+
+/* Hiệu ứng khi hover */
+.social-icons a:hover {
+    background-color: #333; /* Đổi màu nền khi hover */
+}
+
+.social-icons a:hover i {
+    color: #fff; /* Đổi màu biểu tượng khi hover */
+}
